@@ -1,0 +1,204 @@
+/* Border Color */
+.border-red{
+    border-color: rgb(255, 178, 178) !important;
+}
+.border-green{
+    border-color: rgb(168, 255, 168) !important;
+}
+.border-blue{
+    border-color: rgb(207, 247, 255) !important;
+}
+
+/* Bg Color */
+.bg-light-red{
+    background: rgb(255, 250, 250);
+}
+.bg-soft-red{
+    background: rgb(254, 236, 236);
+}
+.bg-light-blue{
+    background: rgb(250, 254, 255);
+}
+.bg-light-green{
+    background: rgb(216, 253, 216) !important;
+}
+.bg-soft-green{
+    background: rgb(236, 253, 236) !important;
+}
+.bg-gray{
+    background: #F1F3F4;
+}
+.new-bg{
+    background-color: #14161C !important;
+}
+
+.new-input-bg{
+    background-color: #2d313e !important;
+}
+
+/* Color */
+.new-text{
+    color: #14161C !important;
+}
+.text-color-new-gray{
+    color: #c5c9d7 !important;
+}
+.text-color{
+    color: #888EA0;
+}
+.color-blue{
+    color: #2581E1;
+}
+.color-gold{
+    color: #B8860B;
+}
+.color-dark-gold{
+    color: #9A7A30 !important;
+}
+.gray{
+    color: #414449;
+}
+.color-dark{
+    color: #0F172A;
+}
+.color-gray{
+    color: #1F2937;
+}
+.text-soft-gray{
+    color: #8A8F98;
+}
+.text-green{
+    color: #16a34a;
+}
+.text-dark-green{
+    color: #16a34a;
+}
+.text-red{
+    color: #ff5959;
+}
+.bg-green{
+    background: #16a34a !important;
+}
+
+/* Font-Size */
+.fs-7{
+    font-size: 7px;
+}
+.fs-14{
+    font-size: 14px !important;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-15{
+    font-size: 15px;
+}
+.fs-12{
+    font-size: 12px !important;
+}
+.fs-13{
+    font-size: 13px !important;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-10{
+    font-size: 10px;
+}
+.fs-24{
+    font-size: 24px;
+}
+
+/* widths */
+
+.w-30px{
+    width: 30px;
+}
+
+.w-25px{
+    width: 25px;
+}
+
+.w-90{
+    width: 90% !important;
+}
+
+.w-80{
+    width: 80% !important;
+}
+
+.w-95{
+    width: 95% !important;
+}
+
+.w-87{
+    width: 87%;
+}
+
+.w-93{
+    width: 93% !important;
+}
+
+.w-85{
+    width: 85% !important;
+}
+
+/* padding */
+
+.px-25{
+    padding: 0.7rem;
+}
+
+/* margin */
+
+.mb-130{
+    margin-bottom: 130px !important;
+}
+
+.ml-30px{
+    margin-left: 25px !important;
+}
+
+.ms-25{
+    margin-left: 0.7rem;
+}
+
+.mt-25{
+    margin-top: 0.7rem;
+}
+
+.me-25{
+    margin-right: 0.7rem;
+}
+
+.ms-35{
+    margin-left: 3.5rem;
+}
+
+.me-45{
+    margin-right: 2.1rem;
+}
+
+.pe-45{
+    padding-right: 2.1rem;
+}
+
+.me-50{
+    margin-right: 5rem;
+}
+
+.px-45{
+    padding: 0 1.7rem !important;
+}
+
+/* align */
+
+.text-justify{
+    text-align: justify;
+}
+
+/* border-radius */
+
+.border-radius-10{
+    border-radius: 10px;
+}

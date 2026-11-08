@@ -1,0 +1,41 @@
+/* input */
+.login-input div {
+    width: 83%;
+    margin: auto;
+    position: relative;
+}
+
+.login-input input {
+    width: 100%;
+    padding: 14px 10px;
+    background: transparent;
+    border: 1px solid #2a2a2a;
+    color: #fff;
+    outline: none;
+}
+
+.login-input label {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    color: #6B6F7B;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transition: 0.2s ease;
+    font-size: 14px;
+}
+
+/* Focus OR input has value */
+.login-input input:focus ~ label,
+.login-input input:not(:placeholder-shown) ~ label {
+    top: 1px;
+    left: -10px;
+    font-size: 11px;
+    color: #D4AF37;
+    background: linear-gradient(
+        to bottom,
+        transparent 40%,
+        #21252f 40%
+    );
+    padding: 0 4px;
+}

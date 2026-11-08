@@ -1,0 +1,61 @@
+/* Large mobile */
+@media (max-width: 600px) {
+  .bg-layer {
+    display: none;
+  }
+  
+  .scene{
+    padding: 0px;
+  }
+  /* ═══════════════════════════════
+     iPHONE FRAME
+  ═══════════════════════════════ */
+ 
+  .iphone {
+    width: 100%;
+    background: none;
+    border-radius: 0px;
+    padding: 0px;
+    position: relative;
+    box-shadow: none;
+}
+ 
+  /* Side buttons */
+  .iphone::before {
+    display: none;
+  }
+  .iphone::after {
+    display: none;
+  }
+  .screen{
+    height: 100vh;
+  }
+  .statusbar{
+    display: none;
+  }
+  .island{
+    display: none;
+  }
+  .app{
+    padding: 0px;
+  }
+  .logo-wrap{
+    margin-top: 30px !important;
+  }
+  .disclaimer{
+    margin-bottom: 30px !important;
+  }
+  .heading h1{
+    width: 80%;
+    margin: auto
+  }
+}
+/* Normal mobile */
+@media (max-width: 480px) {
+
+}
+/* small mobile */
+@media (max-width: 320px) {
+
+}
+
